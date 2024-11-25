@@ -18,46 +18,6 @@ This project analyzes social media conversations from Edmunds.com forums to prov
 - Sample size: ~5000 posts
 - Data format: CSV with date and message content
 
-## Analysis Tasks
-1. **Zipf's Law Testing**
-   - Econometric analysis of word frequencies
-   - Plot of top 100 words against theoretical prediction
-   [Insert Zipf's law plot here]
-
-2. **Brand Frequency Analysis**
-   - Identified top 10 brands by frequency
-   - Analyzed brand mentions while accounting for model-to-brand mapping
-   - Top brands identified:
-     ```
-     1. BMW
-     2. Audi
-     3. Acura
-     4. Lexus
-     5. Infiniti
-     6. Honda
-     7. Nissan
-     8. Toyota
-     9. Porsche
-     10. Cadillac
-     ```
-
-3. **Brand Association Analysis**
-   - Calculated lift ratios between top brands
-   - Created MDS visualization of brand relationships
-   [Insert your MDS plot here]
-
-4. **Feature Analysis**
-   - Identified most discussed car attributes
-   - Analyzed brand-feature associations
-   - Top 5 features:
-     ```
-     1. Price - 1708 mentions
-     2. Performance - 1625 mentions
-     3. Engine - 1217 mentions
-     4. Power - 969 mentions
-     5. AWD - 875 mentions
-     ```
-
 ## Key Findings
 
 ### Brand Associations
@@ -99,17 +59,6 @@ This project analyzes social media conversations from Edmunds.com forums to prov
 
     6. Overall Market Strategy: Brands should be aware of which other brands they are most closely associated with in consumer discussions, as these likely represent their closest competitors or complementary brands in the minds of consumers.
 
-
-### Feature Preferences
-- Most discussed attributes: [List top attributes]
-- Brand-specific associations:
-  - BMW: [Insert associations]
-  - Audi: [Insert associations]
-  [Continue for other key brands]
-
-### Consumer Aspirations
-- Most aspirational brand: [Insert findings]
-- Key factors driving aspirational status: [Insert analysis]
 
 ## Methodology
 
@@ -185,7 +134,7 @@ Most discussed attributes in forums:
 **American Luxury:**
 - Cadillac: Notable for depreciation concerns (4.21) but strong quality perception (3.76)
 
-### 4. Market Positioning [Include your MDS plot here]
+### 4. Market Positioning
 
 #### Brand Clusters:
 1. **German Luxury Cluster**
@@ -241,8 +190,5 @@ project/
 │   └── brandmodel.txt
 ├── scripts/
 │   ├── car_market.ipynb
-├── outputs/
-│   ├── plots/
-│   └── results/
 └── README.md
 ```
